@@ -8,9 +8,7 @@ import com.easychat.support.response.*;
 import io.netty.buffer.ByteBuf;
 
 /**
- * @author Zed
- * date: 2019/08/19.
- * description: bytebuf编解码
+ * bytebuf编解码
  */
 public class PacketCode {
     

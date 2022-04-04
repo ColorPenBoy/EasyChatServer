@@ -5,9 +5,7 @@ import com.easychat.support.Packet;
 import lombok.Data;
 
 /**
- * @author Zed
- * date: 2019/08/19.
- * description: 服务端发送给被邀请方的响应
+ * 服务端发送给被邀请方的响应
  */
 @Data
 public class InviteGroupResp extends Packet {

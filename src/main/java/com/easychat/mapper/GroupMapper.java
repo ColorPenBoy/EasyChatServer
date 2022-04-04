@@ -8,11 +8,6 @@ import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
-/**
- * @author: Zed
- * date: 2019/08/22.
- * description:
- */
 @Mapper
 public interface GroupMapper {
     int addGroup(Group group);

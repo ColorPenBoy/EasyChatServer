@@ -6,9 +6,7 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToByteEncoder;
 
 /**
- * @author Zed
- * date: 2019/08/19.
- * description: 编码
+ * 编码
  */
 public class PacketEncoder extends MessageToByteEncoder<Packet> {
     @Override

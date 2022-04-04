@@ -1,8 +1,3 @@
-/*
- * @(#)ServiceException.java 2018年9月25日
- * Copyright (c), 2018 深圳业拓讯通信科技有限公司（Shenzhen Yetelcom Communication Tech. Co.,Ltd.）,  
- * 著作权人保留一切权利，任何使用需经授权。
- */
 package com.easychat.bean;
 
 import lombok.Builder;
@@ -10,8 +5,7 @@ import lombok.Data;
 import lombok.Getter;
 
 /**
- * Description: 定义的serviceException
- * Created by Zed on 2019/01/11.
+ * 定义的serviceException
  */
 @Builder
 @Data

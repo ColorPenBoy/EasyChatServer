@@ -6,11 +6,6 @@ import io.netty.channel.Channel;
 
 import java.util.List;
 
-/**
- * @author: Zed
- * date: 2019/08/22.
- * description:
- */
 public interface UserService {
     void addUser(String userName, String password, String nickName) throws Exception;
     User queryById(String userId);

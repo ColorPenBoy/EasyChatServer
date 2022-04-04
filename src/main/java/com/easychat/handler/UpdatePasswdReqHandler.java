@@ -13,9 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
- * @author Zed
- * date: 2019/08/20.
- * description: 建议用户http修改密码
+ * 建议用户http, 修改密码
  */
 @ChannelHandler.Sharable
 @Component

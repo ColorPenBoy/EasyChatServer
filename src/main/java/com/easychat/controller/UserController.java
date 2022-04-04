@@ -12,11 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-/**
- * @author: Zed
- * date: 2019/08/26.
- * description:
- */
+
 @RestController
 public class UserController {
     @Autowired

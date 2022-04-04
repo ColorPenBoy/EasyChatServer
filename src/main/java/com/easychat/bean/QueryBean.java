@@ -3,9 +3,7 @@ package com.easychat.bean;
 import lombok.Data;
 
 /**
- * @author Zed
- * date: 2019/10/22.
- * description: 万能查询结果集
+ * 万能查询结果集
  */
 @Data
 public class QueryBean {

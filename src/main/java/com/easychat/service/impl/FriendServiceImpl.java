@@ -11,11 +11,6 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import java.util.List;
 
-/**
- * @author: Zed
- * date: 2019/08/22.
- * description:
- */
 @Service
 @Slf4j
 public class FriendServiceImpl extends BaseService implements FriendService {

@@ -16,9 +16,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
- * @author Zed
- * date: 2019/08/20.
- * description: 允许加入群聊处理
+ * 允许加入群聊处理
  */
 @ChannelHandler.Sharable
 @Component

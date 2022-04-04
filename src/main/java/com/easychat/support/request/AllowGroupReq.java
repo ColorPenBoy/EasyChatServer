@@ -4,11 +4,6 @@ import com.easychat.support.Command;
 import com.easychat.support.Packet;
 import lombok.Data;
 
-/**
- * @author Zed
- * date: 2019/10/29.
- * description:
- */
 @Data
 public class AllowGroupReq extends Packet {
     /** 群Id*/

@@ -5,11 +5,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
-/**
- * @author Zed
- * date: 2019/08/16.
- * description:
- */
 @SpringBootApplication
 public class NettySpringApplication {
 

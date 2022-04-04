@@ -18,9 +18,7 @@ import org.springframework.stereotype.Component;
 import java.beans.Transient;
 
 /**
- * @author Zed
- * date: 2019/08/20.
- * description:接受好友邀请处理
+ * 接受好友邀请处理
  */
 @ChannelHandler.Sharable
 @Component

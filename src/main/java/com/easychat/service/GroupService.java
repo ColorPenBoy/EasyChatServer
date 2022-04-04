@@ -5,11 +5,6 @@ import com.easychat.bean.User;
 
 import java.util.List;
 
-/**
- * @author: Zed
- * date: 2019/08/22.
- * description:
- */
 public interface GroupService {
     String addGroup(String groupName, String mainUserId);
 

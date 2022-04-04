@@ -21,9 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Zed
- * date: 2019/08/20.
- * description: 邀请好友入群处理
+ * 邀请好友入群处理
  */
 @ChannelHandler.Sharable
 @Component

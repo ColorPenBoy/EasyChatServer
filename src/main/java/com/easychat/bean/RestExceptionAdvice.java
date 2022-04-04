@@ -1,8 +1,3 @@
-/*
- * @(#)RestControllerAdvice.java 2018年9月25日
- * Copyright (c), 2018 深圳业拓讯通信科技有限公司（Shenzhen Yetelcom Communication Tech. Co.,Ltd.）,  
- * 著作权人保留一切权利，任何使用需经授权。
- */
 package com.easychat.bean;
 
 import lombok.extern.slf4j.Slf4j;
@@ -21,13 +16,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-/**
- * @author: Zed
- * date: 2019/08/22.
- * description:
- */
-@RestControllerAdvice(basePackages={"com.easychat.controller", "com.easychat.interceptor"})
 @Slf4j
+@RestControllerAdvice(basePackages={"com.easychat.controller", "com.easychat.interceptor"})
 public class RestExceptionAdvice {
 	@ExceptionHandler(ServiceException.class)
 	public Result<?> handlerServiceException(ServiceException e){

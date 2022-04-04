@@ -8,8 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * Description: 版本检测
- * Created by Zed on 2019/01/10.
+ * 版本检测
  */
 @Service
 @Slf4j

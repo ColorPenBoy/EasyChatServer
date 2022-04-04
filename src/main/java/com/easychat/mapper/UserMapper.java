@@ -7,11 +7,6 @@ import org.apache.ibatis.annotations.Param;
 import java.util.LinkedHashMap;
 import java.util.List;
 
-/**
- * @author: Zed
- * date: 2019/08/22.
- * description:
- */
 @Mapper
 public interface UserMapper {
     int addUser(User user);

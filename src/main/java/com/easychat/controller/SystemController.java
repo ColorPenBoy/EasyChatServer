@@ -10,11 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.constraints.NotNull;
 
-/**
- * @author: Zed
- * date: 2019/08/30.
- * description:
- */
+
 @RestController
 @RequestMapping("system")
 @Slf4j

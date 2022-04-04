@@ -16,11 +16,6 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 
-/**
- * @author Zed
- * date: 2019/10/22.
- * description:
- */
 @Service
 @Slf4j
 public class AllQueryServiceImpl implements AllQueryService {

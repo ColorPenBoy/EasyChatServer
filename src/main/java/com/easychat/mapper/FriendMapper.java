@@ -7,11 +7,6 @@ import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
-/**
- * @author: Zed
- * date: 2019/08/22.
- * description:
- */
 @Mapper
 public interface FriendMapper {
     void addFriend(@Param("userId")String userId, @Param("friendId")String friendId);

@@ -7,9 +7,7 @@ import io.netty.handler.codec.MessageToMessageDecoder;
 import java.util.List;
 
 /**
- * @author Zed
- * date: 2019/08/19.
- * description: 解码
+ * 解码
  */
 public class PacketDecoder extends MessageToMessageDecoder {
     @Override

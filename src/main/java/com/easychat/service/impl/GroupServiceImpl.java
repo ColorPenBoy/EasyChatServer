@@ -15,11 +15,6 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import java.util.List;
 
-/**
- * @author: Zed
- * date: 2019/08/22.
- * description:
- */
 @Slf4j
 @Service
 public class GroupServiceImpl extends BaseService implements GroupService {

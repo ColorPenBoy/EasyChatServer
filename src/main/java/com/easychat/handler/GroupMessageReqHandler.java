@@ -19,9 +19,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 /**
- * @author Zed
- * date: 2019/08/20.
- * description: 群消息处理
+ * 群消息处理
  */
 @ChannelHandler.Sharable
 @Component

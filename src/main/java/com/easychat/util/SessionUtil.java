@@ -10,11 +10,6 @@ import org.springframework.stereotype.Component;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * @author Zed
- * date: 2019/08/20.
- * description:
- */
 @Component
 public class SessionUtil {
     

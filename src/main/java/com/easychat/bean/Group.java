@@ -3,9 +3,7 @@ package com.easychat.bean;
 import lombok.Data;
 
 /**
- * @author: Zed
- * date: 2019/08/22.
- * description: 群组信息
+ * 群组信息
  */
 @Data
 public class Group {

@@ -4,11 +4,6 @@ import com.easychat.bean.User;
 
 import java.util.List;
 
-/**
- * @author: Zed
- * date: 2019/08/22.
- * description:
- */
 public interface FriendService {
     /**
      * 添加好友

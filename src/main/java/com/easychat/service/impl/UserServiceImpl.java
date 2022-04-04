@@ -23,11 +23,6 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Set;
 
-/**
- * @author: Zed
- * date: 2019/08/22.
- * description:
- */
 @Service
 public class UserServiceImpl extends BaseService implements UserService {
     

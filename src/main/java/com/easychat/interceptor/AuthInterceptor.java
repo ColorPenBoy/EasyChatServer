@@ -12,9 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * @author Zed
- * date: 2019/10/10.
- * description: 用于鉴权
+ * 用于鉴权
  */
 @Component
 @Slf4j

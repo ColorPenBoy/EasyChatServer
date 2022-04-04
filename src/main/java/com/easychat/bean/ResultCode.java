@@ -1,9 +1,3 @@
-/*
- * @(#)ResultCodeEnum.java 2017年10月23日
- * Copyright (c), 2017 深圳业拓讯通信科技有限公司（Shenzhen Yetelcom Communication Tech. Co.,Ltd.）,  
- * 著作权人保留一切权利，任何使用需经授权。
- */
-
 package com.easychat.bean;
 
 
