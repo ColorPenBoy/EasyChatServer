@@ -1,0 +1,17 @@
+server:
+  profiles:
+    active: dev
+  port: 9004
+  netty:
+    port: 8000
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
+#pagehelper分页插件配置
+pagehelper:
+  helperDialect: mysql
+  reasonable: false
+  supportMethodsArguments: true
+  params: count=countSql
+

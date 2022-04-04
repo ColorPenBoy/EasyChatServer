@@ -25,8 +25,6 @@ public class AppVersion {
     private String downloadUrl;
     /** 是否强制升级 */
     private boolean isForcedUpgrade;
-    
     /** 发布时间*/
     private String releaseTime;
-
 }

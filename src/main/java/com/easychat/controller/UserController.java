@@ -21,9 +21,7 @@ import java.util.List;
 public class UserController {
     @Autowired
     private FriendService friendService;
-    
-    @Autowired
-    private GroupService groupService;
+
     @Autowired
     private UserService userService;
     
