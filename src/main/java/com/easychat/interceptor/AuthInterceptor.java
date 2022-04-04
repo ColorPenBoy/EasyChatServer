@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 @Component
 @Slf4j
 public class AuthInterceptor implements HandlerInterceptor {
-    @Value("${sys.test.value}")
+    @Value("${sys.test}")
     private boolean isTest;
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {

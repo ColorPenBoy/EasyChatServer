@@ -5,7 +5,7 @@ import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
 public class BaseService {
-    @Value("${sys.test.value}")
+    @Value("${sys.test}")
     private boolean isTest;
     
     protected String getUserId() {

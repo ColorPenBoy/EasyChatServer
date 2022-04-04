@@ -9,9 +9,9 @@ import com.easychat.bean.User;
 import com.easychat.mapper.GroupMapper;
 import com.easychat.mapper.UserMapper;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -19,10 +19,10 @@ import java.util.List;
 @Service
 @Slf4j
 public class AllQueryServiceImpl implements AllQueryService {
-    @Autowired
+    @Resource
     private UserMapper userMapper;
     
-    @Autowired
+    @Resource
     private GroupMapper groupMapper;
     
     @Override
