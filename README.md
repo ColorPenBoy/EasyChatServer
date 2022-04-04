@@ -21,5 +21,5 @@ java -jar EasyChatServer.jar
 
 ## EasyChat相关开源项目
 
-#### JavaFX客户端：[EasyChatJavaFXClient](https://github.com/yetel/EasyChatJavaFXClient)
-#### Android客户端：[EasyChatAndroidClient](https://github.com/yetel/EasyChatAndroidClient)
+#### JavaFX客户端：[EasyChatJavaFXClient](https://github.com/ColorPenBoy/EasyChatJavaFXClient)
+#### Android客户端：[EasyChatAndroidClient](https://github.com/ColorPenBoy/EasyChatAndroidClient)
