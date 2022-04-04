@@ -11,12 +11,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-@Component
 @Slf4j
+@Component
 public class NettyServer {
     
     @Value("${server.netty.port}")
     private int nettyPort;
+
     private ServerBootstrap bootstrap;
     private NioEventLoopGroup boss;
     private NioEventLoopGroup worker;
@@ -49,7 +50,6 @@ public class NettyServer {
         } catch (Exception e) {
             doClose();
         }
-
     }
 
     public synchronized void doClose() {

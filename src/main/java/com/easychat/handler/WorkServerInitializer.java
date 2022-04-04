@@ -35,15 +35,13 @@ public class WorkServerInitializer extends ChannelInitializer<SocketChannel>  {
     private UpdatePasswdReqHandler updatePasswdReqHandler;
     @Autowired
     private HeartBeatRequestHandler heartBeatRequestHandler;
-    
     @Autowired
     private SynctReqHandler synctReqHandler;
-    
     @Autowired
     private ApplyGroupReqHandler applyGroupReqHandler;
-    
     @Autowired
     private AllowGroupReqHandler allowGroupReqHandler;
+
     @Override
     protected void initChannel(SocketChannel ch) throws Exception {
         ch.pipeline().addLast(new Spliter());
@@ -63,7 +61,6 @@ public class WorkServerInitializer extends ChannelInitializer<SocketChannel>  {
         ch.pipeline().addLast(synctReqHandler);
         ch.pipeline().addLast(applyGroupReqHandler);
         ch.pipeline().addLast(allowGroupReqHandler);
-
         ch.pipeline().addLast(new PacketEncoder());
     }
 }

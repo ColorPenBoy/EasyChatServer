@@ -25,9 +25,6 @@ public class AuthInterceptor implements HandlerInterceptor {
         if (isTest) {
             return true;
         }
-        if (request.getRequestURI().contains("swagger")) {
-            return true;
-        }
 
         if (request.getRequestURI().contains("system")) {
             return true;
