@@ -76,6 +76,7 @@ public class LoginReqHandler extends SimpleChannelInboundHandler<LoginReq> {
     private String getToken() {
         String token = RandomIdUtil.generateUniqId();
         String userId = SessionUtil.getUserIdByToken(token);
+        log.info("Register User Token: {}, UserId: {}", token, userId);
         if (StringUtils.isBlank(userId)) {
             return token;
         }

@@ -4,7 +4,6 @@ import com.easychat.bean.ResultCode;
 import com.easychat.util.SessionUtil;
 import io.netty.channel.Channel;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 
@@ -18,15 +17,8 @@ import javax.servlet.http.HttpServletResponse;
 @Slf4j
 public class AuthInterceptor implements HandlerInterceptor {
 
-    @Value("${sys.test}")
-    private boolean isTest;
-
     @Override
-    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        
-        if (isTest) {
-            return true;
-        }
+    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) {
 
         if (request.getRequestURI().contains("system")) {
             return true;
